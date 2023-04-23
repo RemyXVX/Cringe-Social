@@ -7,7 +7,7 @@ export default function Home() {
   return(
     <main className="py-4 px-48">
       <h1>Home</h1>
-      <Link href={"/dashboard"}>Go to dashboard</Link>
+      <Link className="bg-teal-700 text-black font-medium py-2 px-4 rounded-md" href={"./components/about"}>Go to about</Link>
     </main>
   )
 }
