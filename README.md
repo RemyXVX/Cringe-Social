@@ -49,6 +49,8 @@ Develop different login types for casual users and administrators.
 
 ### <strong>Resources:</strong>
 - [Next.js crashcourse by developedbyed](https://www.youtube.com/watch?v=T63nY70eZF0&ab_channel=developedbyed)
+- [Next.js navbar by Code With Marish](https://www.youtube.com/watch?v=NHy34_IqWj4&ab_channel=CodeWithMarish)
+- [Next.js Layout and Pages by developedbyed](https://www.youtube.com/watch?v=zbYBgy_ChGY&ab_channel=developedbyed)
 
 ## <a name="3" id="3"></a><span style="color: Pink">Webpage
 * [https://github.com/RemyXVX/Cringe-Social]()
