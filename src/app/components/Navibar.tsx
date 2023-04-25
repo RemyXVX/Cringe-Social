@@ -12,15 +12,15 @@ const menuList = [
     text: "contact",
     href: "./components/contact"
   },{
-    text: "sign-up",
-    href: "./components/sign-up"
+    text: "signup",
+    href: "./components/signup"
   },{
     text: "NEXT.JS",
     href: "./components/next"
   }
 ]
 
-const Navbar = () => {
+const Navibar = () => {
   return(
     <div className="py-4 px-48">
       <nav className="flex justify-between items-center h-16 bg-white text-black relative shadow-sm font-mono" role="navigation">
@@ -49,4 +49,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar;
+export default Navibar;
