@@ -1,20 +1,22 @@
-import { Inter } from 'next/font/google'
 import React from 'react';
+import { Inter } from 'next/font/google';
 
-import Navibar from './components/Navibar';
-import Info from './components/Info';
-import Header from './components/Header';
+import Navibar from '../Navibar';
+import Info from '../Info';
+import Header from '../Header';
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'] });
 
 const Home = () => {
-  return(
-    <React.Fragment>
-    <Header />
-    <Info />
-    <Navibar />
-  </React.Fragment>
+  return (
+    <div className="container mx-auto px-6 md:px-10">
+      <div className="formContainer">
+        <Header />
+        <Info />
+        <Navibar />
+      </div>
+    </div>
   );
-}
+};
 
 export default Home;
