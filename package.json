@@ -3,33 +3,42 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "server": "nodemon -r ts-node src/app/api/server/server.ts",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "start",
     "lint": "next lint"
   },
   "dependencies": {
-    "@prisma/client": "^4.13.0",
-    "@types/react": "18.0.33",
-    "@types/react-dom": "18.0.11",
+    "@prisma/client": "^4.14.1",
+    "@supabase/supabase-js": "^2.22.0",
     "eslint": "8.38.0",
     "eslint-config-next": "13.3.0",
+    "express": "^4.18.2",
     "next": "13.3.0",
+    "next-auth": "^4.22.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
   "main": "next.config.js",
   "devDependencies": {
-    "@types/node": "^18.16.3",
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.16.13",
+    "@types/react": "^18.2.6",
+    "@types/react-dom": "^18.2.4",
     "autoprefixer": "^10.4.14",
+    "nodemon": "^2.0.22",
     "postcss": "^8.4.23",
-    "prisma": "^4.13.0",
+    "prisma": "^4.14.1",
     "tailwindcss": "^3.3.1",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.4"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "directories": {
+    "lib": "lib"
+  }
 }

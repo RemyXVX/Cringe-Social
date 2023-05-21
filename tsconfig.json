@@ -11,6 +11,8 @@
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
@@ -24,6 +26,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src"],
+  "exclude": ["node_modules", "dist"]
 }
